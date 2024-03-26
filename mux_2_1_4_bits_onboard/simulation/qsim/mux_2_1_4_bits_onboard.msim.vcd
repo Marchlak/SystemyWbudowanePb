@@ -1,0 +1,287 @@
+$comment
+	File created using the following command:
+		vcd file mux_2_1_4_bits_onboard.msim.vcd -direction
+$end
+$date
+	Thu Mar 07 01:17:12 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module mux_2_1_4_bits_onboard_vlg_vec_tst $end
+$var reg 1 ! KEY0 $end
+$var reg 8 " SW [7:0] $end
+$var wire 1 # LEDR [3] $end
+$var wire 1 $ LEDR [2] $end
+$var wire 1 % LEDR [1] $end
+$var wire 1 & LEDR [0] $end
+
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 . KEY0~input_o $end
+$var wire 1 / SW[4]~input_o $end
+$var wire 1 0 SW[0]~input_o $end
+$var wire 1 1 m0|mux0|m~0_combout $end
+$var wire 1 2 SW[1]~input_o $end
+$var wire 1 3 SW[5]~input_o $end
+$var wire 1 4 m0|mux1|m~0_combout $end
+$var wire 1 5 SW[2]~input_o $end
+$var wire 1 6 SW[6]~input_o $end
+$var wire 1 7 m0|mux2|m~0_combout $end
+$var wire 1 8 SW[3]~input_o $end
+$var wire 1 9 SW[7]~input_o $end
+$var wire 1 : m0|mux3|m~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x!
+b10101011 "
+x&
+1%
+0$
+1#
+0'
+1(
+x)
+1*
+1+
+1,
+0-
+x.
+0/
+10
+x1
+12
+13
+14
+05
+06
+07
+18
+19
+1:
+$end
+#10000
+b101011 "
+b111011 "
+b110011 "
+08
+1/
+09
+0:
+11
+1&
+0#
+#20000
+b110111 "
+b111111 "
+15
+18
+x:
+x7
+x$
+x#
+#30000
+b1111111 "
+b1111101 "
+b1111100 "
+b1101100 "
+00
+02
+0/
+16
+17
+01
+x4
+x%
+0&
+1$
+#40000
+b11101100 "
+b11100100 "
+b11100101 "
+b11110101 "
+10
+08
+1/
+19
+11
+1&
+#50000
+b10110101 "
+b110101 "
+b110100 "
+b100100 "
+00
+0/
+06
+09
+0:
+x7
+01
+0&
+x$
+0#
+#60000
+b100000 "
+b101000 "
+b1101000 "
+b1111000 "
+05
+18
+1/
+16
+x1
+x:
+x#
+x&
+#70000
+b1111010 "
+b1111011 "
+b1110011 "
+b1100011 "
+10
+12
+08
+0/
+0:
+14
+1%
+0#
+#80000
+b1000011 "
+b11000011 "
+b11000010 "
+b11001010 "
+00
+18
+03
+19
+1:
+x4
+01
+0&
+x%
+1#
+#90000
+b11001110 "
+b10001110 "
+b10101110 "
+b10101111 "
+b10100111 "
+10
+15
+08
+13
+06
+14
+x:
+x1
+x&
+x#
+1%
+#100000
+b10110111 "
+b110111 "
+b1110111 "
+b1010111 "
+b1010110 "
+b1011110 "
+00
+18
+1/
+03
+16
+09
+17
+x4
+x%
+1$
+#110000
+b1011010 "
+b11011010 "
+b10011010 "
+b10011011 "
+10
+05
+06
+19
+1:
+07
+11
+1&
+0$
+1#
+#120000
+b10011111 "
+b11111 "
+b1011111 "
+15
+16
+09
+x:
+17
+1$
+x#
+#130000
+b1001111 "
+b1101111 "
+b1101110 "
+b1101010 "
+b11101010 "
+00
+05
+0/
+13
+19
+1:
+14
+01
+x7
+x$
+0&
+1%
+1#
+#140000
+b10101010 "
+b10101011 "
+b101011 "
+10
+06
+09
+x:
+07
+x1
+x&
+0$
+x#
+#150000
+b111011 "
+b11011 "
+b11111 "
+b10011111 "
+15
+1/
+03
+19
+1:
+x4
+11
+x7
+x$
+1&
+x%
+1#
+#160000

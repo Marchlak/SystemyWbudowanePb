@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/bingo/OneDrive/Pulpit/bcd_to_dec_2_bits/simulation/qsim
+vbcd_to_dec_2_bits
+Z1 !s110 1710531813
+!i10b 1
+!s100 L^59`9nk0=VdfY0o5fg4e0
+Id2Kia<MnLleS7^BfDWHN[3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1710531810
+8bcd_to_dec_2_bits.vo
+Fbcd_to_dec_2_bits.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1710531812.000000
+!s107 bcd_to_dec_2_bits.vo|
+!s90 -work|work|bcd_to_dec_2_bits.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vbcd_to_dec_2_bits_vlg_vec_tst
+R1
+!i10b 1
+!s100 k=72W_Ha0idnchEN1Dm8D2
+Idl6FcTQ70JnLD>iz9P0>P3
+R2
+R0
+w1710531808
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+!s108 1710531813.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+R5

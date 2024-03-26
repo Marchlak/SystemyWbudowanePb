@@ -1,0 +1,31 @@
+|mux_4_1_1_bit
+u => u.IN1
+v => v.IN1
+w => w.IN1
+x => x.IN1
+S0 => S0.IN2
+S1 => S1.IN1
+m << mux_2_1_1_bit:m2.port3
+
+
+|mux_4_1_1_bit|mux_2_1_1_bit:m0
+x => m.DATAA
+y => m.DATAB
+s => m.OUTPUTSELECT
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_4_1_1_bit|mux_2_1_1_bit:m1
+x => m.DATAA
+y => m.DATAB
+s => m.OUTPUTSELECT
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_4_1_1_bit|mux_2_1_1_bit:m2
+x => m.DATAA
+y => m.DATAB
+s => m.OUTPUTSELECT
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

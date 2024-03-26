@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/bingo/OneDrive/Pulpit/assign_adder/assign_adder.v
+source_file = 1, C:/Users/bingo/OneDrive/Pulpit/assign_adder/Waveform.vwf
+source_file = 1, C:/Users/bingo/OneDrive/Pulpit/assign_adder/db/assign_adder.cbx.xml
+design_name = assign_adder
+instance = comp, \S~output , S~output, assign_adder, 1
+instance = comp, \cout~output , cout~output, assign_adder, 1
+instance = comp, \cin~input , cin~input, assign_adder, 1
+instance = comp, \a~input , a~input, assign_adder, 1
+instance = comp, \b~input , b~input, assign_adder, 1
+instance = comp, \S~0 , S~0, assign_adder, 1
+instance = comp, \cout~0 , cout~0, assign_adder, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, assign_adder, 1

@@ -1,0 +1,8 @@
+|comparator_over_10_4bits
+x[0] => LessThan0.IN8
+x[1] => LessThan0.IN7
+x[2] => LessThan0.IN6
+x[3] => LessThan0.IN5
+z <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+

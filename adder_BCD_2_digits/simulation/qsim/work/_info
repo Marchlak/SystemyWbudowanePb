@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/bingo/OneDrive/Pulpit/adder_BCD_2_digits/simulation/qsim
+vadder_BCD_2_digits
+!s110 1711123823
+!i10b 1
+!s100 :VR[PJgKkk9^`H6jYhN8S3
+IKKa?D2oBM:J55IDWjd3C?2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1711123823
+8adder_BCD_2_digits.vo
+Fadder_BCD_2_digits.vo
+L0 31
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1711123823.000000
+!s107 adder_BCD_2_digits.vo|
+!s90 -work|work|adder_BCD_2_digits.vo|
+!i113 1
+Z3 o-work work
+Z4 tCvgOpt 0
+nadder_@b@c@d_2_digits
+vadder_BCD_2_digits_vlg_vec_tst
+!s110 1711123824
+!i10b 1
+!s100 ?_a127f<TU@kkzSEMRJ]P0
+I:>NIjE;^R[l4;IfaJ^X090
+R1
+R0
+w1711123821
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R2
+r1
+!s85 0
+31
+!s108 1711123824.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R3
+R4
+nadder_@b@c@d_2_digits_vlg_vec_tst

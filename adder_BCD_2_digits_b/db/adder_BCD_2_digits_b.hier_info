@@ -1,0 +1,99 @@
+|adder_BCD_2_digits_b
+X[0] => X[0].IN1
+X[1] => X[1].IN1
+X[2] => X[2].IN1
+X[3] => X[3].IN1
+Y[0] => Y[0].IN1
+Y[1] => Y[1].IN1
+Y[2] => Y[2].IN1
+Y[3] => Y[3].IN1
+cin => Add1.IN10
+o_X[0] << decoder_hex_10:d0.port1
+o_X[1] << decoder_hex_10:d0.port1
+o_X[2] << decoder_hex_10:d0.port1
+o_X[3] << decoder_hex_10:d0.port1
+o_X[4] << decoder_hex_10:d0.port1
+o_X[5] << decoder_hex_10:d0.port1
+o_X[6] << decoder_hex_10:d0.port1
+o_Y[0] << decoder_hex_10:d1.port1
+o_Y[1] << decoder_hex_10:d1.port1
+o_Y[2] << decoder_hex_10:d1.port1
+o_Y[3] << decoder_hex_10:d1.port1
+o_Y[4] << decoder_hex_10:d1.port1
+o_Y[5] << decoder_hex_10:d1.port1
+o_Y[6] << decoder_hex_10:d1.port1
+S0[0] << decoder_hex_10:d2.port1
+S0[1] << decoder_hex_10:d2.port1
+S0[2] << decoder_hex_10:d2.port1
+S0[3] << decoder_hex_10:d2.port1
+S0[4] << decoder_hex_10:d2.port1
+S0[5] << decoder_hex_10:d2.port1
+S0[6] << decoder_hex_10:d2.port1
+S1[0] << binary_to_hex_decoder_1_bit:b.port1
+S1[1] << binary_to_hex_decoder_1_bit:b.port1
+S1[2] << binary_to_hex_decoder_1_bit:b.port1
+S1[3] << binary_to_hex_decoder_1_bit:b.port1
+S1[4] << binary_to_hex_decoder_1_bit:b.port1
+S1[5] << binary_to_hex_decoder_1_bit:b.port1
+S1[6] << binary_to_hex_decoder_1_bit:b.port1
+error << always0.DB_MAX_OUTPUT_PORT_TYPE
+suma[0] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+suma[1] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+suma[2] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+suma[3] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+suma[4] << Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_BCD_2_digits_b|decoder_hex_10:d0
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_BCD_2_digits_b|decoder_hex_10:d1
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_BCD_2_digits_b|decoder_hex_10:d2
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+h[6] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+h[4] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+h[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_BCD_2_digits_b|binary_to_hex_decoder_1_bit:b
+x => Decoder0.IN0
+h[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+h[5] <= <GND>
+h[4] <= <GND>
+h[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+h[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+h[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+h[0] <= <VCC>
+
+

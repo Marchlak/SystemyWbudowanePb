@@ -1,0 +1,14 @@
+|mux_2_1_1_bit_onboard
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+KEY[0] => KEY[0].IN1
+LEDR[0] <= mux_2_1_1_bit:comb_3.port3
+
+
+|mux_2_1_1_bit_onboard|mux_2_1_1_bit:comb_3
+x => m.DATAA
+y => m.DATAB
+s => m.OUTPUTSELECT
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

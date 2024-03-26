@@ -1,0 +1,41 @@
+|mux_4_1_1_bit_on_board
+SW[0] => SW[0].IN1
+SW[1] => SW[1].IN1
+SW[2] => SW[2].IN1
+SW[3] => SW[3].IN1
+KEY[0] => KEY[0].IN1
+KEY[1] => KEY[1].IN1
+LEDR0 << mux_4_1_1_bit:m0.port6
+
+
+|mux_4_1_1_bit_on_board|mux_4_1_1_bit:m0
+u => u.IN1
+v => v.IN1
+w => w.IN1
+x => x.IN1
+S0 => S0.IN2
+S1 => S1.IN1
+m <= mux_2_1_1_bit:m2.port3
+
+
+|mux_4_1_1_bit_on_board|mux_4_1_1_bit:m0|mux_2_1_1_bit:m0
+x => m.DATAA
+y => m.DATAB
+s => m.OUTPUTSELECT
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_4_1_1_bit_on_board|mux_4_1_1_bit:m0|mux_2_1_1_bit:m1
+x => m.DATAA
+y => m.DATAB
+s => m.OUTPUTSELECT
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_4_1_1_bit_on_board|mux_4_1_1_bit:m0|mux_2_1_1_bit:m2
+x => m.DATAA
+y => m.DATAB
+s => m.OUTPUTSELECT
+m <= m.DB_MAX_OUTPUT_PORT_TYPE
+
+

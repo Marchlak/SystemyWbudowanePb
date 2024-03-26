@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/bingo/OneDrive/Pulpit/mux_2_1_1_bit/mux_2_1_1_bit.v
+source_file = 1, C:/Users/bingo/OneDrive/Pulpit/mux_2_1_1_bit_onboard/mux_2_1_1_bit_onboard.v
+source_file = 1, C:/Users/bingo/OneDrive/Pulpit/mux_2_1_1_bit_onboard/db/mux_2_1_1_bit_onboard.cbx.xml
+design_name = mux_2_1_1_bit_onboard
+instance = comp, \LEDR[0]~output , LEDR[0]~output, mux_2_1_1_bit_onboard, 1
+instance = comp, \KEY[0]~input , KEY[0]~input, mux_2_1_1_bit_onboard, 1
+instance = comp, \SW[0]~input , SW[0]~input, mux_2_1_1_bit_onboard, 1
+instance = comp, \SW[1]~input , SW[1]~input, mux_2_1_1_bit_onboard, 1
+instance = comp, \comb_3|m~0 , comb_3|m~0, mux_2_1_1_bit_onboard, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, mux_2_1_1_bit_onboard, 1

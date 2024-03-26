@@ -1,0 +1,50 @@
+|latch_FDDP_FDDN
+D => D.IN3
+Clk => Clk.IN2
+Qa <= latch_D_b:d0.port2
+Qb <= master_slave_D_b:FDD_posedge.port2
+Qc <= master_slave_D_b:FDD_negedge.port2
+
+
+|latch_FDDP_FDDN|latch_D_b:d0
+Clk => Q$latch.LATCH_ENABLE
+D => Q$latch.DATAIN
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|latch_FDDP_FDDN|master_slave_D_b:FDD_posedge
+Clk => Clk.IN1
+D => D.IN1
+Q <= latch_D_b:slave.port2
+
+
+|latch_FDDP_FDDN|master_slave_D_b:FDD_posedge|latch_D_b:master
+Clk => Q$latch.LATCH_ENABLE
+D => Q$latch.DATAIN
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|latch_FDDP_FDDN|master_slave_D_b:FDD_posedge|latch_D_b:slave
+Clk => Q$latch.LATCH_ENABLE
+D => Q$latch.DATAIN
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|latch_FDDP_FDDN|master_slave_D_b:FDD_negedge
+Clk => Clk.IN1
+D => D.IN1
+Q <= latch_D_b:slave.port2
+
+
+|latch_FDDP_FDDN|master_slave_D_b:FDD_negedge|latch_D_b:master
+Clk => Q$latch.LATCH_ENABLE
+D => Q$latch.DATAIN
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|latch_FDDP_FDDN|master_slave_D_b:FDD_negedge|latch_D_b:slave
+Clk => Q$latch.LATCH_ENABLE
+D => Q$latch.DATAIN
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

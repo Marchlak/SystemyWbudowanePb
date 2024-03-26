@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/bingo/OneDrive/Pulpit/primitive_adder/simulation/qsim
+vprimitive_adder
+Z1 !s110 1709402412
+!i10b 1
+!s100 Q:CBRcZH<8W9R0g^J1C_00
+I8LZD[ST27D==]^AaKm5693
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1709402411
+8primitive_adder.vo
+Fprimitive_adder.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1709402412.000000
+!s107 primitive_adder.vo|
+!s90 -work|work|primitive_adder.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vprimitive_adder_vlg_vec_tst
+R1
+!i10b 1
+!s100 DnCYc=8=ij]418]]f[a8]2
+I?<>z45P:zPXo9cY?o5SUT2
+R2
+R0
+w1709402410
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

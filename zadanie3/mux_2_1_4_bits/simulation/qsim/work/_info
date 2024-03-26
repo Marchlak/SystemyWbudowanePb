@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/bingo/OneDrive/Pulpit/mux_2_1_4_bits/simulation/qsim
+vmux_2_1_4_bits
+Z1 !s110 1709771860
+!i10b 1
+!s100 d8A^NmLTYYO]7PnJJ9jSi2
+I4zH2GQJPA@OZBE0dN:X9M1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1709771859
+8mux_2_1_4_bits.vo
+Fmux_2_1_4_bits.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1709771860.000000
+!s107 mux_2_1_4_bits.vo|
+!s90 -work|work|mux_2_1_4_bits.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vmux_2_1_4_bits_vlg_vec_tst
+R1
+!i10b 1
+!s100 a?>C5[^Th<U<IJS42JQ:Y1
+I=W4bN@RkefBIm4`9=;`cc2
+R2
+R0
+w1709771857
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5
+R6

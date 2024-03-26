@@ -1,0 +1,14 @@
+|assign_adder
+a => S.IN0
+a => cout.IN0
+a => cout.IN0
+b => S.IN1
+b => cout.IN1
+b => cout.IN0
+cin => S.IN1
+cin => cout.IN1
+cin => cout.IN1
+S << S.DB_MAX_OUTPUT_PORT_TYPE
+cout << cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
